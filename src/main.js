@@ -45,7 +45,7 @@ class app{
 
     this.repositories.forEach(repo => {
       if(repo.avatar_url === undefined)
-        repo.avatar_url = './img/noimg.png';
+        repo.avatar_url = './public/img/noimg.png';
         
       let imagemEl = document.createElement('img');
       imagemEl.setAttribute('src',repo.avatar_url);
