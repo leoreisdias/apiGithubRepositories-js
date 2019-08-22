@@ -5,7 +5,7 @@ module.exports = {
         filename: 'bundle.js', 
     },
     devServer:{
-      contentBase: __dirname + '/public', //Onde o servidor redicionará
+      contentBase: __dirname //Onde o servidor redicionará
     },
     module: {
         rules: [ //como webpack se comporta quando importar outros arquivos js
