@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
 ul{
     list-style: none;
     margin: 0px;
